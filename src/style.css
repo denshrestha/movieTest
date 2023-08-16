@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.page-block {
+  height: calc(100vh - (60px + 40px));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+  text-transform" uppercase;
+  font-weight: 500;
+}
